@@ -17,7 +17,7 @@ class CircularProgressView: UIView {
     makeCircularPath()
   }
   
-  var progressClr: UIColor = .black {
+  var progressClr: UIColor = .white {
     didSet {
       progressLyr.strokeColor = progressClr.cgColor
     }
@@ -28,9 +28,9 @@ class CircularProgressView: UIView {
     self.layer.cornerRadius = self.frame.size.width / 2
     let circlePath = UIBezierPath(arcCenter: CGPoint(x: frame.size.width/2, y: frame.size.height/2), radius: (frame.size.width - 1.5)/2, startAngle: .pi / 2, endAngle: 2.5 * .pi, clockwise: true)
     progressLyr.path = circlePath.cgPath
-    progressLyr.fillColor = UIColor.clear.cgColor
+    progressLyr.fillColor = UIColor.init(red: 42/255, green: 22/255, blue: 76/255, alpha: 1).cgColor
     progressLyr.strokeColor = progressClr.cgColor
-    progressLyr.lineWidth = 10.0
+    progressLyr.lineWidth = 8.0
     progressLyr.strokeEnd = 0.0
     progressLyr.lineCap = .round
     layer.addSublayer(progressLyr)
