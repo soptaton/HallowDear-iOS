@@ -160,13 +160,10 @@
 			children = (
 				57772D92236DBA0A00D48F22 /* Main.storyboard */,
 				57772D97236DBA0D00D48F22 /* LaunchScreen.storyboard */,
-<<<<<<< HEAD
 				EA3E1DC4236DEA19002D6D91 /* Reward.storyboard */,
 				57EABF0A236E0D9D00096873 /* Presenting.storyboard */,
-=======
 				52705986236DEAD0002AB186 /* Present.storyboard */,
 				52973A8F236E25C0007AEBE8 /* Donation.storyboard */,
->>>>>>> present
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -174,12 +171,9 @@
 		57772DA5236DBB1B00D48F22 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-<<<<<<< HEAD
 				EA3E1DC6236DEC81002D6D91 /* Reward */,
-=======
 				52973A91236E2811007AEBE8 /* Donation */,
 				5270598A236DEC7D002AB186 /* Present */,
->>>>>>> present
 				57772D90236DBA0A00D48F22 /* ViewController.swift */,
 				57EABF0C236E2F5E00096873 /* Presenting */,
 				57772DD0236DEC7100D48F22 /* Main */,
@@ -332,11 +326,8 @@
 				57772D96236DBA0D00D48F22 /* Assets.xcassets in Resources */,
 				52705987236DEAD0002AB186 /* Present.storyboard in Resources */,
 				57772D94236DBA0A00D48F22 /* Main.storyboard in Resources */,
-<<<<<<< HEAD
 				57EABF0B236E0D9D00096873 /* Presenting.storyboard in Resources */,
-=======
 				52973A90236E25C1007AEBE8 /* Donation.storyboard in Resources */,
->>>>>>> present
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
