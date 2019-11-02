@@ -22,8 +22,7 @@ class MainViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     setupView()
-    circularProgressView.setProgressWithAnimation(duration: 0.7, value: 0.75)
-    
+    circularProgressView.setProgressWithAnimation(duration: 1, value: 0.75)
   }
 
   
@@ -31,17 +30,12 @@ class MainViewController: UIViewController {
 
 extension MainViewController {
   private func setupView() {
-    presentingButton.layer.applySmoothRoundedCorner(10)
-    presentingButtonBackView.layer.cornerRadius = 10
-    presentingButtonBackView.layer.applySketchShadow(color: .black, alpha: 0.3, x: 2, y: 2, blur: 8, spread: 0)
-    
-    currentPresentButton.layer.applySmoothRoundedCorner(10)
-    currentPresentButtonBackView.layer.cornerRadius = 10
-    currentPresentButtonBackView.layer.applySketchShadow(color: .black, alpha: 0.3, x: 2, y: 2, blur: 8, spread: 0)
-    
-    currentRewardButton.layer.applySmoothRoundedCorner(10)
-    currentRewardButtonBackView.layer.cornerRadius = 10
-    currentRewardButtonBackView.layer.applySketchShadow(color: .black, alpha: 0.3, x: 2, y: 2, blur: 8, spread: 0)
+    presentingButton.layer.applySmoothRoundedCorner(18)
+    presentingButton.backgroundColor = .init(red: 254/255, green: 94/255, blue: 92/255, alpha: 1)
+    currentPresentButton.layer.applySmoothRoundedCorner(18)
+    currentPresentButton.backgroundColor = .init(white: 208/255, alpha: 1)
+    currentRewardButton.layer.applySmoothRoundedCorner(18)
+    currentRewardButton.backgroundColor = .init(white: 208/255, alpha: 1)
   }
 }
 

@@ -18,6 +18,11 @@
 		57772DAF236DBC3D00D48F22 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57772DAE236DBC3D00D48F22 /* APIService.swift */; };
 		57772DD3236DED3200D48F22 /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57772DD2236DED3200D48F22 /* CircularProgressView.swift */; };
 		57EABF09236DFD8800096873 /* UIView+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EABF08236DFD8800096873 /* UIView+extension.swift */; };
+		57EABF0B236E0D9D00096873 /* Presenting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57EABF0A236E0D9D00096873 /* Presenting.storyboard */; };
+		57EABF0E236E2FE400096873 /* FirstPresentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EABF0D236E2FE400096873 /* FirstPresentViewController.swift */; };
+		57EABF10236E2FF500096873 /* SecondPresentingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EABF0F236E2FF500096873 /* SecondPresentingViewController.swift */; };
+		57EABF12236E300800096873 /* ThirdPresentingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EABF11236E300800096873 /* ThirdPresentingViewController.swift */; };
+		57EABF14236E301100096873 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EABF13236E301100096873 /* FourthViewController.swift */; };
 		FB23D5E1486A92ADEED0921B /* Pods_Sopkathon_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B744966A6C368B45CB02E01 /* Pods_Sopkathon_iOS.framework */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +41,11 @@
 		57772DAE236DBC3D00D48F22 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 		57772DD2236DED3200D48F22 /* CircularProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressView.swift; sourceTree = "<group>"; };
 		57EABF08236DFD8800096873 /* UIView+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+extension.swift"; sourceTree = "<group>"; };
+		57EABF0A236E0D9D00096873 /* Presenting.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Presenting.storyboard; sourceTree = "<group>"; };
+		57EABF0D236E2FE400096873 /* FirstPresentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPresentViewController.swift; sourceTree = "<group>"; };
+		57EABF0F236E2FF500096873 /* SecondPresentingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondPresentingViewController.swift; sourceTree = "<group>"; };
+		57EABF11236E300800096873 /* ThirdPresentingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdPresentingViewController.swift; sourceTree = "<group>"; };
+		57EABF13236E301100096873 /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
 		8E32874906313C44EEEEB6D4 /* Pods-Sopkathon-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sopkathon-iOS.debug.xcconfig"; path = "Target Support Files/Pods-Sopkathon-iOS/Pods-Sopkathon-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		F1632D0A8CCF9F4F452E6C30 /* Pods-Sopkathon-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sopkathon-iOS.release.xcconfig"; path = "Target Support Files/Pods-Sopkathon-iOS/Pods-Sopkathon-iOS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -107,6 +117,7 @@
 			children = (
 				57772D92236DBA0A00D48F22 /* Main.storyboard */,
 				57772D97236DBA0D00D48F22 /* LaunchScreen.storyboard */,
+				57EABF0A236E0D9D00096873 /* Presenting.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -114,6 +125,7 @@
 		57772DA5236DBB1B00D48F22 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				57EABF0C236E2F5E00096873 /* Presenting */,
 				57772DD0236DEC7100D48F22 /* Main */,
 			);
 			path = Scenes;
@@ -159,6 +171,17 @@
 				57772DD2236DED3200D48F22 /* CircularProgressView.swift */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		57EABF0C236E2F5E00096873 /* Presenting */ = {
+			isa = PBXGroup;
+			children = (
+				57EABF0D236E2FE400096873 /* FirstPresentViewController.swift */,
+				57EABF0F236E2FF500096873 /* SecondPresentingViewController.swift */,
+				57EABF11236E300800096873 /* ThirdPresentingViewController.swift */,
+				57EABF13236E301100096873 /* FourthViewController.swift */,
+			);
+			path = Presenting;
 			sourceTree = "<group>";
 		};
 		8ACBC104B8A0D23483B15861 /* Pods */ = {
@@ -241,6 +264,7 @@
 				57772D99236DBA0D00D48F22 /* LaunchScreen.storyboard in Resources */,
 				57772D96236DBA0D00D48F22 /* Assets.xcassets in Resources */,
 				57772D94236DBA0A00D48F22 /* Main.storyboard in Resources */,
+				57EABF0B236E0D9D00096873 /* Presenting.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,10 +317,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57EABF14236E301100096873 /* FourthViewController.swift in Sources */,
 				57772DAD236DBC1E00D48F22 /* model.swift in Sources */,
+				57EABF0E236E2FE400096873 /* FirstPresentViewController.swift in Sources */,
+				57EABF12236E300800096873 /* ThirdPresentingViewController.swift in Sources */,
 				57772D91236DBA0A00D48F22 /* MainViewController.swift in Sources */,
 				57EABF09236DFD8800096873 /* UIView+extension.swift in Sources */,
 				57772D8D236DBA0A00D48F22 /* AppDelegate.swift in Sources */,
+				57EABF10236E2FF500096873 /* SecondPresentingViewController.swift in Sources */,
 				57772DD3236DED3200D48F22 /* CircularProgressView.swift in Sources */,
 				57772D8F236DBA0A00D48F22 /* SceneDelegate.swift in Sources */,
 				57772DAF236DBC3D00D48F22 /* APIService.swift in Sources */,
