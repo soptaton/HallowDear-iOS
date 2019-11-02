@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,9 @@
 		57772DAB236DBC0100D48F22 /* extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57772DAA236DBC0100D48F22 /* extension.swift */; };
 		57772DAD236DBC1E00D48F22 /* model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57772DAC236DBC1E00D48F22 /* model.swift */; };
 		57772DAF236DBC3D00D48F22 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57772DAE236DBC3D00D48F22 /* APIService.swift */; };
+		EA3E1DC5236DEA19002D6D91 /* Reward.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA3E1DC4236DEA19002D6D91 /* Reward.storyboard */; };
+		EA3E1DCE236DF00B002D6D91 /* RewardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3E1DCD236DF00B002D6D91 /* RewardViewController.swift */; };
+		EA3E1DD2236E0563002D6D91 /* RoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3E1DD1236E0563002D6D91 /* RoundView.swift */; };
 		FB23D5E1486A92ADEED0921B /* Pods_Sopkathon_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B744966A6C368B45CB02E01 /* Pods_Sopkathon_iOS.framework */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +36,9 @@
 		57772DAC236DBC1E00D48F22 /* model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = model.swift; sourceTree = "<group>"; };
 		57772DAE236DBC3D00D48F22 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 		8E32874906313C44EEEEB6D4 /* Pods-Sopkathon-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sopkathon-iOS.debug.xcconfig"; path = "Target Support Files/Pods-Sopkathon-iOS/Pods-Sopkathon-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		EA3E1DC4236DEA19002D6D91 /* Reward.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Reward.storyboard; sourceTree = "<group>"; };
+		EA3E1DCD236DF00B002D6D91 /* RewardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardViewController.swift; sourceTree = "<group>"; };
+		EA3E1DD1236E0563002D6D91 /* RoundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundView.swift; sourceTree = "<group>"; };
 		F1632D0A8CCF9F4F452E6C30 /* Pods-Sopkathon-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sopkathon-iOS.release.xcconfig"; path = "Target Support Files/Pods-Sopkathon-iOS/Pods-Sopkathon-iOS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,6 +109,7 @@
 			children = (
 				57772D92236DBA0A00D48F22 /* Main.storyboard */,
 				57772D97236DBA0D00D48F22 /* LaunchScreen.storyboard */,
+				EA3E1DC4236DEA19002D6D91 /* Reward.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -110,6 +117,7 @@
 		57772DA5236DBB1B00D48F22 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				EA3E1DC6236DEC81002D6D91 /* Reward */,
 				57772D90236DBA0A00D48F22 /* ViewController.swift */,
 			);
 			path = Scenes;
@@ -153,7 +161,6 @@
 				8E32874906313C44EEEEB6D4 /* Pods-Sopkathon-iOS.debug.xcconfig */,
 				F1632D0A8CCF9F4F452E6C30 /* Pods-Sopkathon-iOS.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -163,6 +170,15 @@
 				0B744966A6C368B45CB02E01 /* Pods_Sopkathon_iOS.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA3E1DC6236DEC81002D6D91 /* Reward */ = {
+			isa = PBXGroup;
+			children = (
+				EA3E1DCD236DF00B002D6D91 /* RewardViewController.swift */,
+				EA3E1DD1236E0563002D6D91 /* RoundView.swift */,
+			);
+			path = Reward;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				57772D99236DBA0D00D48F22 /* LaunchScreen.storyboard in Resources */,
+				EA3E1DC5236DEA19002D6D91 /* Reward.storyboard in Resources */,
 				57772D96236DBA0D00D48F22 /* Assets.xcassets in Resources */,
 				57772D94236DBA0A00D48F22 /* Main.storyboard in Resources */,
 			);
@@ -280,7 +297,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA3E1DD2236E0563002D6D91 /* RoundView.swift in Sources */,
 				57772DAD236DBC1E00D48F22 /* model.swift in Sources */,
+				EA3E1DCE236DF00B002D6D91 /* RewardViewController.swift in Sources */,
 				57772D91236DBA0A00D48F22 /* ViewController.swift in Sources */,
 				57772D8D236DBA0A00D48F22 /* AppDelegate.swift in Sources */,
 				57772D8F236DBA0A00D48F22 /* SceneDelegate.swift in Sources */,
@@ -432,6 +451,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Sopkathon-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,6 +470,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Sopkathon-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
