@@ -8,4 +8,5 @@ target 'Sopkathon-iOS' do
   # Pods for Sopkathon-iOS
     pod 'Alamofire'
     pod 'Kingfisher'
+    pod 'Hero'
 end

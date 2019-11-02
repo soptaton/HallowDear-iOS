@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		57772D8D236DBA0A00D48F22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57772D8C236DBA0A00D48F22 /* AppDelegate.swift */; };
 		57772D8F236DBA0A00D48F22 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57772D8E236DBA0A00D48F22 /* SceneDelegate.swift */; };
-		57772D91236DBA0A00D48F22 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57772D90236DBA0A00D48F22 /* ViewController.swift */; };
+		57772D91236DBA0A00D48F22 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57772D90236DBA0A00D48F22 /* MainViewController.swift */; };
 		57772D94236DBA0A00D48F22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57772D92236DBA0A00D48F22 /* Main.storyboard */; };
 		57772D96236DBA0D00D48F22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57772D95236DBA0D00D48F22 /* Assets.xcassets */; };
 		57772D99236DBA0D00D48F22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57772D97236DBA0D00D48F22 /* LaunchScreen.storyboard */; };
@@ -19,6 +19,13 @@
 		EA3E1DC5236DEA19002D6D91 /* Reward.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA3E1DC4236DEA19002D6D91 /* Reward.storyboard */; };
 		EA3E1DCE236DF00B002D6D91 /* RewardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3E1DCD236DF00B002D6D91 /* RewardViewController.swift */; };
 		EA3E1DD2236E0563002D6D91 /* RoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3E1DD1236E0563002D6D91 /* RoundView.swift */; };
+		57772DD3236DED3200D48F22 /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57772DD2236DED3200D48F22 /* CircularProgressView.swift */; };
+		57EABF09236DFD8800096873 /* UIView+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EABF08236DFD8800096873 /* UIView+extension.swift */; };
+		57EABF0B236E0D9D00096873 /* Presenting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57EABF0A236E0D9D00096873 /* Presenting.storyboard */; };
+		57EABF0E236E2FE400096873 /* FirstPresentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EABF0D236E2FE400096873 /* FirstPresentViewController.swift */; };
+		57EABF10236E2FF500096873 /* SecondPresentingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EABF0F236E2FF500096873 /* SecondPresentingViewController.swift */; };
+		57EABF12236E300800096873 /* ThirdPresentingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EABF11236E300800096873 /* ThirdPresentingViewController.swift */; };
+		57EABF14236E301100096873 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EABF13236E301100096873 /* FourthViewController.swift */; };
 		FB23D5E1486A92ADEED0921B /* Pods_Sopkathon_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B744966A6C368B45CB02E01 /* Pods_Sopkathon_iOS.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,7 +34,7 @@
 		57772D89236DBA0A00D48F22 /* Sopkathon-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sopkathon-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		57772D8C236DBA0A00D48F22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57772D8E236DBA0A00D48F22 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		57772D90236DBA0A00D48F22 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		57772D90236DBA0A00D48F22 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		57772D93236DBA0A00D48F22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		57772D95236DBA0D00D48F22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57772D98236DBA0D00D48F22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -35,6 +42,13 @@
 		57772DAA236DBC0100D48F22 /* extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extension.swift; sourceTree = "<group>"; };
 		57772DAC236DBC1E00D48F22 /* model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = model.swift; sourceTree = "<group>"; };
 		57772DAE236DBC3D00D48F22 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		57772DD2236DED3200D48F22 /* CircularProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressView.swift; sourceTree = "<group>"; };
+		57EABF08236DFD8800096873 /* UIView+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+extension.swift"; sourceTree = "<group>"; };
+		57EABF0A236E0D9D00096873 /* Presenting.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Presenting.storyboard; sourceTree = "<group>"; };
+		57EABF0D236E2FE400096873 /* FirstPresentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPresentViewController.swift; sourceTree = "<group>"; };
+		57EABF0F236E2FF500096873 /* SecondPresentingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondPresentingViewController.swift; sourceTree = "<group>"; };
+		57EABF11236E300800096873 /* ThirdPresentingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdPresentingViewController.swift; sourceTree = "<group>"; };
+		57EABF13236E301100096873 /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
 		8E32874906313C44EEEEB6D4 /* Pods-Sopkathon-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sopkathon-iOS.debug.xcconfig"; path = "Target Support Files/Pods-Sopkathon-iOS/Pods-Sopkathon-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		EA3E1DC4236DEA19002D6D91 /* Reward.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Reward.storyboard; sourceTree = "<group>"; };
 		EA3E1DCD236DF00B002D6D91 /* RewardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardViewController.swift; sourceTree = "<group>"; };
@@ -110,6 +124,7 @@
 				57772D92236DBA0A00D48F22 /* Main.storyboard */,
 				57772D97236DBA0D00D48F22 /* LaunchScreen.storyboard */,
 				EA3E1DC4236DEA19002D6D91 /* Reward.storyboard */,
+				57EABF0A236E0D9D00096873 /* Presenting.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -119,6 +134,8 @@
 			children = (
 				EA3E1DC6236DEC81002D6D91 /* Reward */,
 				57772D90236DBA0A00D48F22 /* ViewController.swift */,
+				57EABF0C236E2F5E00096873 /* Presenting */,
+				57772DD0236DEC7100D48F22 /* Main */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -151,8 +168,29 @@
 			isa = PBXGroup;
 			children = (
 				57772DAA236DBC0100D48F22 /* extension.swift */,
+				57EABF08236DFD8800096873 /* UIView+extension.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		57772DD0236DEC7100D48F22 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				57772D90236DBA0A00D48F22 /* MainViewController.swift */,
+				57772DD2236DED3200D48F22 /* CircularProgressView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		57EABF0C236E2F5E00096873 /* Presenting */ = {
+			isa = PBXGroup;
+			children = (
+				57EABF0D236E2FE400096873 /* FirstPresentViewController.swift */,
+				57EABF0F236E2FF500096873 /* SecondPresentingViewController.swift */,
+				57EABF11236E300800096873 /* ThirdPresentingViewController.swift */,
+				57EABF13236E301100096873 /* FourthViewController.swift */,
+			);
+			path = Presenting;
 			sourceTree = "<group>";
 		};
 		8ACBC104B8A0D23483B15861 /* Pods */ = {
@@ -245,6 +283,7 @@
 				EA3E1DC5236DEA19002D6D91 /* Reward.storyboard in Resources */,
 				57772D96236DBA0D00D48F22 /* Assets.xcassets in Resources */,
 				57772D94236DBA0A00D48F22 /* Main.storyboard in Resources */,
+				57EABF0B236E0D9D00096873 /* Presenting.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,7 +340,15 @@
 				57772DAD236DBC1E00D48F22 /* model.swift in Sources */,
 				EA3E1DCE236DF00B002D6D91 /* RewardViewController.swift in Sources */,
 				57772D91236DBA0A00D48F22 /* ViewController.swift in Sources */,
+				57EABF14236E301100096873 /* FourthViewController.swift in Sources */,
+				57772DAD236DBC1E00D48F22 /* model.swift in Sources */,
+				57EABF0E236E2FE400096873 /* FirstPresentViewController.swift in Sources */,
+				57EABF12236E300800096873 /* ThirdPresentingViewController.swift in Sources */,
+				57772D91236DBA0A00D48F22 /* MainViewController.swift in Sources */,
+				57EABF09236DFD8800096873 /* UIView+extension.swift in Sources */,
 				57772D8D236DBA0A00D48F22 /* AppDelegate.swift in Sources */,
+				57EABF10236E2FF500096873 /* SecondPresentingViewController.swift in Sources */,
+				57772DD3236DED3200D48F22 /* CircularProgressView.swift in Sources */,
 				57772D8F236DBA0A00D48F22 /* SceneDelegate.swift in Sources */,
 				57772DAF236DBC3D00D48F22 /* APIService.swift in Sources */,
 				57772DAB236DBC0100D48F22 /* extension.swift in Sources */,
