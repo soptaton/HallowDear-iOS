@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		522D92ED236DED3B0009911D /* PresentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522D92EC236DED3B0009911D /* PresentVC.swift */; };
+		522D92F2236DF5920009911D /* Present.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522D92F1236DF5920009911D /* Present.swift */; };
+		522D92F4236E127E0009911D /* PresentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522D92F3236E127E0009911D /* PresentCell.swift */; };
+		52705987236DEAD0002AB186 /* Present.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52705986236DEAD0002AB186 /* Present.storyboard */; };
+		52973A90236E25C1007AEBE8 /* Donation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52973A8F236E25C0007AEBE8 /* Donation.storyboard */; };
+		52973A93236E2836007AEBE8 /* DonationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52973A92236E2836007AEBE8 /* DonationVC.swift */; };
 		57772D8D236DBA0A00D48F22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57772D8C236DBA0A00D48F22 /* AppDelegate.swift */; };
 		57772D8F236DBA0A00D48F22 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57772D8E236DBA0A00D48F22 /* SceneDelegate.swift */; };
 		57772D91236DBA0A00D48F22 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57772D90236DBA0A00D48F22 /* MainViewController.swift */; };
@@ -31,6 +37,12 @@
 
 /* Begin PBXFileReference section */
 		0B744966A6C368B45CB02E01 /* Pods_Sopkathon_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sopkathon_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		522D92EC236DED3B0009911D /* PresentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentVC.swift; sourceTree = "<group>"; };
+		522D92F1236DF5920009911D /* Present.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Present.swift; sourceTree = "<group>"; };
+		522D92F3236E127E0009911D /* PresentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentCell.swift; sourceTree = "<group>"; };
+		52705986236DEAD0002AB186 /* Present.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Present.storyboard; sourceTree = "<group>"; };
+		52973A8F236E25C0007AEBE8 /* Donation.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Donation.storyboard; sourceTree = "<group>"; };
+		52973A92236E2836007AEBE8 /* DonationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonationVC.swift; sourceTree = "<group>"; };
 		57772D89236DBA0A00D48F22 /* Sopkathon-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sopkathon-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		57772D8C236DBA0A00D48F22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57772D8E236DBA0A00D48F22 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -68,6 +80,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		522D92F0236DF4CA0009911D /* Present */ = {
+			isa = PBXGroup;
+			children = (
+				522D92F1236DF5920009911D /* Present.swift */,
+			);
+			path = Present;
+			sourceTree = "<group>";
+		};
+		5270598A236DEC7D002AB186 /* Present */ = {
+			isa = PBXGroup;
+			children = (
+				522D92EC236DED3B0009911D /* PresentVC.swift */,
+				522D92F3236E127E0009911D /* PresentCell.swift */,
+			);
+			path = Present;
+			sourceTree = "<group>";
+		};
+		52973A91236E2811007AEBE8 /* Donation */ = {
+			isa = PBXGroup;
+			children = (
+				52973A92236E2836007AEBE8 /* DonationVC.swift */,
+			);
+			path = Donation;
+			sourceTree = "<group>";
+		};
 		57772D80236DBA0A00D48F22 = {
 			isa = PBXGroup;
 			children = (
@@ -123,8 +160,13 @@
 			children = (
 				57772D92236DBA0A00D48F22 /* Main.storyboard */,
 				57772D97236DBA0D00D48F22 /* LaunchScreen.storyboard */,
+<<<<<<< HEAD
 				EA3E1DC4236DEA19002D6D91 /* Reward.storyboard */,
 				57EABF0A236E0D9D00096873 /* Presenting.storyboard */,
+=======
+				52705986236DEAD0002AB186 /* Present.storyboard */,
+				52973A8F236E25C0007AEBE8 /* Donation.storyboard */,
+>>>>>>> present
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -132,7 +174,12 @@
 		57772DA5236DBB1B00D48F22 /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				EA3E1DC6236DEC81002D6D91 /* Reward */,
+=======
+				52973A91236E2811007AEBE8 /* Donation */,
+				5270598A236DEC7D002AB186 /* Present */,
+>>>>>>> present
 				57772D90236DBA0A00D48F22 /* ViewController.swift */,
 				57EABF0C236E2F5E00096873 /* Presenting */,
 				57772DD0236DEC7100D48F22 /* Main */,
@@ -151,6 +198,7 @@
 		57772DA7236DBB4C00D48F22 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				522D92F0236DF4CA0009911D /* Present */,
 				57772DAC236DBC1E00D48F22 /* model.swift */,
 			);
 			path = Model;
@@ -282,8 +330,13 @@
 				57772D99236DBA0D00D48F22 /* LaunchScreen.storyboard in Resources */,
 				EA3E1DC5236DEA19002D6D91 /* Reward.storyboard in Resources */,
 				57772D96236DBA0D00D48F22 /* Assets.xcassets in Resources */,
+				52705987236DEAD0002AB186 /* Present.storyboard in Resources */,
 				57772D94236DBA0A00D48F22 /* Main.storyboard in Resources */,
+<<<<<<< HEAD
 				57EABF0B236E0D9D00096873 /* Presenting.storyboard in Resources */,
+=======
+				52973A90236E25C1007AEBE8 /* Donation.storyboard in Resources */,
+>>>>>>> present
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,7 +403,11 @@
 				57EABF10236E2FF500096873 /* SecondPresentingViewController.swift in Sources */,
 				57772DD3236DED3200D48F22 /* CircularProgressView.swift in Sources */,
 				57772D8F236DBA0A00D48F22 /* SceneDelegate.swift in Sources */,
+				522D92ED236DED3B0009911D /* PresentVC.swift in Sources */,
 				57772DAF236DBC3D00D48F22 /* APIService.swift in Sources */,
+				52973A93236E2836007AEBE8 /* DonationVC.swift in Sources */,
+				522D92F2236DF5920009911D /* Present.swift in Sources */,
+				522D92F4236E127E0009911D /* PresentCell.swift in Sources */,
 				57772DAB236DBC0100D48F22 /* extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -497,6 +554,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CYJWF25337;
 				INFOPLIST_FILE = "Sopkathon-iOS/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -516,6 +574,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CYJWF25337;
 				INFOPLIST_FILE = "Sopkathon-iOS/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (

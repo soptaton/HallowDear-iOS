@@ -1,6 +1,7 @@
 {
   "images" : [
     {
+<<<<<<< HEAD
       "filename" : "graphicImg.png",
       "scale" : "1x",
       "idiom" : "universal"
@@ -8,6 +9,15 @@
     {
       "scale" : "2x",
       "filename" : "graphicImg@2x.png",
+=======
+      "idiom" : "universal",
+      "filename" : "graphicImg.png",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "graphicImg@2x.png",
+      "scale" : "2x",
+>>>>>>> present
       "idiom" : "universal"
     },
     {

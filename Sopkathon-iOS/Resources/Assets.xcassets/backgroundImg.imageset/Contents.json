@@ -2,6 +2,7 @@
   "images" : [
     {
       "scale" : "1x",
+<<<<<<< HEAD
       "idiom" : "universal",
       "filename" : "backgroundImg.png"
     },
@@ -14,6 +15,20 @@
       "scale" : "3x",
       "idiom" : "universal",
       "filename" : "backgroundImg@3x.png"
+=======
+      "filename" : "backgroundImg.png",
+      "idiom" : "universal"
+    },
+    {
+      "scale" : "2x",
+      "idiom" : "universal",
+      "filename" : "backgroundImg@2x.png"
+    },
+    {
+      "scale" : "3x",
+      "filename" : "backgroundImg@3x.png",
+      "idiom" : "universal"
+>>>>>>> present
     }
   ],
   "info" : {
