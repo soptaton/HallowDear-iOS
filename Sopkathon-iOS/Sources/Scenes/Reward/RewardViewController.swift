@@ -49,6 +49,7 @@ class RewardViewController: UIViewController {
         
     }
     @IBAction func backbuttonaction(_ sender: Any) {
+        dismiss(animated: true)
     }
     @IBAction func decisionbuttonaction(_ sender: Any) {
     }

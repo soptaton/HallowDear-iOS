@@ -10,12 +10,12 @@
         <!--DonationVC-->
         <scene sceneID="E32-Y1-Ynr">
             <objects>
-                <viewController id="OqW-Ua-Cre" customClass="DonationVC" customModule="Sopkathon_iOS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DonationVC" id="OqW-Ua-Cre" customClass="DonationVC" customModule="Sopkathon_iOS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aOn-Dl-Hew">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="graphicImg" translatesAutoresizingMaskIntoConstraints="NO" id="Z5g-lc-GF4">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="donationGraphicImg" translatesAutoresizingMaskIntoConstraints="NO" id="Z5g-lc-GF4">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="516"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="기부현황" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0ra-cG-5Zn">
@@ -30,13 +30,13 @@
                                 <color key="textColor" red="0.4392156862745098" green="0.4392156862745098" blue="0.4392156862745098" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dNx-6X-7c0">
+                            <textField opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="123000" borderStyle="line" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dNx-6X-7c0">
                                 <rect key="frame" x="26" y="617" width="72" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="4ko-MN-cgg"/>
                                     <constraint firstAttribute="width" constant="72" id="k3a-Xo-bjH"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="20"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="개의 사탕" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fL4-CJ-FKg">
@@ -63,12 +63,27 @@
                                 <color key="textColor" red="0.4392156862745098" green="0.4392156862745098" blue="0.4392156862745098" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HuC-9P-RWq">
+                                <rect key="frame" x="16" y="55" width="20" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="20" id="P5y-2w-mjX"/>
+                                </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" backgroundImage="chevron.left" catalog="system">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="back:" destination="OqW-Ua-Cre" eventType="touchUpInside" id="tfk-NE-2xO"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="HuC-9P-RWq" firstAttribute="leading" secondItem="XgF-fW-vbq" secondAttribute="leading" constant="16" id="02r-1H-dIT"/>
                             <constraint firstItem="XgF-fW-vbq" firstAttribute="trailing" secondItem="0ra-cG-5Zn" secondAttribute="trailing" constant="132" id="5ls-2u-7yn"/>
                             <constraint firstItem="XgF-fW-vbq" firstAttribute="trailing" secondItem="Fjf-6M-mYn" secondAttribute="trailing" constant="96" id="6gf-J7-NBd"/>
                             <constraint firstItem="0ra-cG-5Zn" firstAttribute="leading" secondItem="XgF-fW-vbq" secondAttribute="leading" constant="133" id="A78-se-621"/>
+                            <constraint firstItem="HuC-9P-RWq" firstAttribute="top" secondItem="XgF-fW-vbq" secondAttribute="top" constant="9" id="BBi-e3-wBT"/>
                             <constraint firstItem="dNx-6X-7c0" firstAttribute="top" secondItem="Fjf-6M-mYn" secondAttribute="bottom" constant="16" id="GVH-b0-5lC"/>
                             <constraint firstItem="7VF-6c-SDu" firstAttribute="top" secondItem="TUk-IE-PWu" secondAttribute="bottom" constant="4" id="GZE-gy-b3k"/>
                             <constraint firstItem="fL4-CJ-FKg" firstAttribute="leading" secondItem="dNx-6X-7c0" secondAttribute="trailing" id="LWY-ov-lLS"/>
@@ -88,16 +103,14 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="XgF-fW-vbq"/>
                     </view>
-                    <connections>
-                        <outlet property="totalNum" destination="dNx-6X-7c0" id="cPP-UB-dlp"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xgb-Ku-qwo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="320.80000000000001" y="-6.6502463054187197"/>
+            <point key="canvasLocation" x="729" y="-146"/>
         </scene>
     </scenes>
     <resources>
-        <image name="graphicImg" width="376" height="516"/>
+        <image name="chevron.left" catalog="system" width="48" height="64"/>
+        <image name="donationGraphicImg" width="376" height="516"/>
     </resources>
 </document>

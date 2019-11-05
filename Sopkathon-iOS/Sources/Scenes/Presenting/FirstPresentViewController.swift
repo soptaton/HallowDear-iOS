@@ -39,7 +39,7 @@ class FirstPresentingViewController: UIViewController {
   
   override func viewDidLoad() {
     super.viewDidLoad()
-    hero.isEnabled = true
+    //hero.isEnabled = true
     titleLabel.hero.id = "title"
     progressImg.hero.id = "progressImg"
     dot.hero.id = "dot"
@@ -51,7 +51,10 @@ class FirstPresentingViewController: UIViewController {
     chocolateButton.addTarget(self, action: #selector(chocolateSelect), for: .touchUpInside)
   }
   
-  
+    @IBAction func back(_ sender: UIButton) {
+        dismiss(animated: true)
+    }
+    
   @objc func presentNext() {
     guard let next = storyboard?.instantiateViewController(withIdentifier: "Second") as? SecondPresentingViewController else { return }
     next.hero.modalAnimationType = .slide(direction: .left)

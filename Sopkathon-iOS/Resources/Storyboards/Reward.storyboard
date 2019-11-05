@@ -10,7 +10,7 @@
         <!--Reward View Controller-->
         <scene sceneID="2LF-a7-amF">
             <objects>
-                <viewController id="C7a-ZU-oh6" customClass="RewardViewController" customModule="Sopkathon_iOS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="RewardViewController" id="C7a-ZU-oh6" customClass="RewardViewController" customModule="Sopkathon_iOS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="TxY-a7-ar0">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

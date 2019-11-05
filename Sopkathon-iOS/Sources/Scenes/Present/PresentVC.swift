@@ -24,6 +24,11 @@ class PresentVC: UIViewController {
         
     }
     
+    @IBAction func back(_ sender: Any) {
+        dismiss(animated: true)
+    }
+    
+    
 }
 
 extension PresentVC: UITableViewDelegate, UITableViewDataSource {

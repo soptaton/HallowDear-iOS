@@ -9,11 +9,13 @@ import UIKit
 
 class DonationVC: UIViewController {
 
-    @IBOutlet var totalNum: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
+    @IBAction func back(_ sender: UIButton) {
+        dismiss(animated: true)
+    }
 }

@@ -22,9 +22,6 @@
 		57772DAB236DBC0100D48F22 /* extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57772DAA236DBC0100D48F22 /* extension.swift */; };
 		57772DAD236DBC1E00D48F22 /* model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57772DAC236DBC1E00D48F22 /* model.swift */; };
 		57772DAF236DBC3D00D48F22 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57772DAE236DBC3D00D48F22 /* APIService.swift */; };
-		EA3E1DC5236DEA19002D6D91 /* Reward.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA3E1DC4236DEA19002D6D91 /* Reward.storyboard */; };
-		EA3E1DCE236DF00B002D6D91 /* RewardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3E1DCD236DF00B002D6D91 /* RewardViewController.swift */; };
-		EA3E1DD2236E0563002D6D91 /* RoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3E1DD1236E0563002D6D91 /* RoundView.swift */; };
 		57772DD3236DED3200D48F22 /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57772DD2236DED3200D48F22 /* CircularProgressView.swift */; };
 		57EABF09236DFD8800096873 /* UIView+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EABF08236DFD8800096873 /* UIView+extension.swift */; };
 		57EABF0B236E0D9D00096873 /* Presenting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57EABF0A236E0D9D00096873 /* Presenting.storyboard */; };
@@ -32,6 +29,9 @@
 		57EABF10236E2FF500096873 /* SecondPresentingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EABF0F236E2FF500096873 /* SecondPresentingViewController.swift */; };
 		57EABF12236E300800096873 /* ThirdPresentingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EABF11236E300800096873 /* ThirdPresentingViewController.swift */; };
 		57EABF14236E301100096873 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EABF13236E301100096873 /* FourthViewController.swift */; };
+		EA3E1DC5236DEA19002D6D91 /* Reward.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA3E1DC4236DEA19002D6D91 /* Reward.storyboard */; };
+		EA3E1DCE236DF00B002D6D91 /* RewardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3E1DCD236DF00B002D6D91 /* RewardViewController.swift */; };
+		EA3E1DD2236E0563002D6D91 /* RoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3E1DD1236E0563002D6D91 /* RoundView.swift */; };
 		FB23D5E1486A92ADEED0921B /* Pods_Sopkathon_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B744966A6C368B45CB02E01 /* Pods_Sopkathon_iOS.framework */; };
 /* End PBXBuildFile section */
 
@@ -43,7 +43,7 @@
 		52705986236DEAD0002AB186 /* Present.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Present.storyboard; sourceTree = "<group>"; };
 		52973A8F236E25C0007AEBE8 /* Donation.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Donation.storyboard; sourceTree = "<group>"; };
 		52973A92236E2836007AEBE8 /* DonationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonationVC.swift; sourceTree = "<group>"; };
-		57772D89236DBA0A00D48F22 /* Sopkathon-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sopkathon-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57772D89236DBA0A00D48F22 /* 할로디어.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "할로디어.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		57772D8C236DBA0A00D48F22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57772D8E236DBA0A00D48F22 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		57772D90236DBA0A00D48F22 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -118,7 +118,7 @@
 		57772D8A236DBA0A00D48F22 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				57772D89236DBA0A00D48F22 /* Sopkathon-iOS.app */,
+				57772D89236DBA0A00D48F22 /* 할로디어.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -174,7 +174,6 @@
 				EA3E1DC6236DEC81002D6D91 /* Reward */,
 				52973A91236E2811007AEBE8 /* Donation */,
 				5270598A236DEC7D002AB186 /* Present */,
-				57772D90236DBA0A00D48F22 /* ViewController.swift */,
 				57EABF0C236E2F5E00096873 /* Presenting */,
 				57772DD0236DEC7100D48F22 /* Main */,
 			);
@@ -280,7 +279,7 @@
 			);
 			name = "Sopkathon-iOS";
 			productName = "Sopkathon-iOS";
-			productReference = 57772D89236DBA0A00D48F22 /* Sopkathon-iOS.app */;
+			productReference = 57772D89236DBA0A00D48F22 /* 할로디어.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -383,7 +382,7 @@
 				EA3E1DD2236E0563002D6D91 /* RoundView.swift in Sources */,
 				57772DAD236DBC1E00D48F22 /* model.swift in Sources */,
 				EA3E1DCE236DF00B002D6D91 /* RewardViewController.swift in Sources */,
-				57772D91236DBA0A00D48F22 /* ViewController.swift in Sources */,
+				57772D91236DBA0A00D48F22 /* MainViewController.swift in Sources */,
 				57EABF14236E301100096873 /* FourthViewController.swift in Sources */,
 				57772DAD236DBC1E00D48F22 /* model.swift in Sources */,
 				57EABF0E236E2FE400096873 /* FirstPresentViewController.swift in Sources */,
@@ -475,7 +474,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -529,7 +528,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -553,7 +552,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.SOPT.Sopkathon-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "할로디어";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -573,7 +572,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.SOPT.Sopkathon-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "할로디어";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

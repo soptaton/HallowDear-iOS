@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -10,7 +10,7 @@
         <!--Main View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="MainViewController" customModule="Sopkathon_iOS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Main" id="BYZ-38-t0r" customClass="MainViewController" customModule="Sopkathon_iOS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -21,7 +21,7 @@
                                     <constraint firstAttribute="height" constant="624" id="Ijd-JB-Ay8"/>
                                 </constraints>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="graphicImg" translatesAutoresizingMaskIntoConstraints="NO" id="fn7-S7-MVs">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ghost1GraphicImg" translatesAutoresizingMaskIntoConstraints="NO" id="fn7-S7-MVs">
                                 <rect key="frame" x="46" y="57" width="283" height="231"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="230.99999999999994" id="6tS-sn-tbD"/>
@@ -48,6 +48,9 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="03Y-uM-neP">
+                                <rect key="frame" x="103" y="234" width="169" height="168.66666666666663"/>
+                            </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Qip-d1-Da4">
                                 <rect key="frame" x="16" y="591" width="343" height="131"/>
                                 <subviews>
@@ -158,6 +161,7 @@
                             <constraint firstItem="hfn-CQ-Thl" firstAttribute="centerY" secondItem="fxA-OK-TR0" secondAttribute="centerY" id="NTr-ie-BN0"/>
                             <constraint firstItem="fxA-OK-TR0" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.45" id="OOF-bz-ZSN"/>
                             <constraint firstItem="mq3-VZ-mOq" firstAttribute="width" secondItem="fxA-OK-TR0" secondAttribute="width" id="St4-3O-zXk"/>
+                            <constraint firstItem="03Y-uM-neP" firstAttribute="height" secondItem="fxA-OK-TR0" secondAttribute="height" id="Y12-ZJ-t6e"/>
                             <constraint firstItem="fn7-S7-MVs" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="13" id="YYU-8m-nin"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Qip-d1-Da4" secondAttribute="trailing" constant="16" id="aaf-9y-Bdn"/>
                             <constraint firstItem="Qip-d1-Da4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="bJy-0g-D3j"/>
@@ -165,7 +169,10 @@
                             <constraint firstItem="hfn-CQ-Thl" firstAttribute="centerX" secondItem="fxA-OK-TR0" secondAttribute="centerX" id="d3W-PB-qcK"/>
                             <constraint firstItem="IuK-2r-RdG" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="er1-9j-APl"/>
                             <constraint firstItem="2pZ-fs-vP4" firstAttribute="top" secondItem="fxA-OK-TR0" secondAttribute="bottom" constant="24" id="lfk-ql-Bth"/>
+                            <constraint firstItem="03Y-uM-neP" firstAttribute="centerX" secondItem="fxA-OK-TR0" secondAttribute="centerX" id="nnY-pO-v2N"/>
+                            <constraint firstItem="03Y-uM-neP" firstAttribute="centerY" secondItem="fxA-OK-TR0" secondAttribute="centerY" id="oJk-Xw-8g3"/>
                             <constraint firstItem="hfn-CQ-Thl" firstAttribute="width" secondItem="fxA-OK-TR0" secondAttribute="width" id="r3A-Fb-1VJ"/>
+                            <constraint firstItem="03Y-uM-neP" firstAttribute="width" secondItem="fxA-OK-TR0" secondAttribute="width" id="t09-tx-d4o"/>
                             <constraint firstItem="fn7-S7-MVs" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="wKc-aH-h7a"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -176,18 +183,19 @@
                         <outlet property="currentPresentButtonBackView" destination="tzK-V0-ZWb" id="Zw9-8o-xSh"/>
                         <outlet property="currentRewardButton" destination="J60-gL-QxG" id="YIM-9C-bcV"/>
                         <outlet property="currentRewardButtonBackView" destination="KI6-xe-DQq" id="AQt-9U-CyT"/>
+                        <outlet property="getRewardButton" destination="03Y-uM-neP" id="cMo-Dr-BPs"/>
                         <outlet property="presentingButton" destination="KqM-Zb-Cwr" id="kQB-9l-HXd"/>
                         <outlet property="presentingButtonBackView" destination="gRW-83-14x" id="KKL-MK-sby"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="136.80000000000001" y="137.4384236453202"/>
+            <point key="canvasLocation" x="561" y="-143"/>
         </scene>
     </scenes>
     <resources>
         <image name="Hallow dear!" width="165" height="30"/>
         <image name="backgroundImg" width="376" height="624"/>
-        <image name="graphicImg" width="284.33334350585938" height="231.66667175292969"/>
+        <image name="ghost1GraphicImg" width="283.66665649414062" height="231.66667175292969"/>
     </resources>
 </document>
