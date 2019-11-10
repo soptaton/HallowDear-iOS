@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="6sp-Ag-g6w">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
@@ -10,7 +10,7 @@
         <!--First Presenting View Controller-->
         <scene sceneID="mRq-JV-9Fw">
             <objects>
-                <viewController id="6sp-Ag-g6w" customClass="FirstPresentingViewController" customModule="Sopkathon_iOS" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="FirstPresentingViewController" id="6sp-Ag-g6w" customClass="FirstPresentingViewController" customModule="Sopkathon_iOS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="BbK-U6-Mht">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -145,6 +145,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="backgroundImg" translatesAutoresizingMaskIntoConstraints="NO" id="LMS-sp-rFt">
+                                <rect key="frame" x="0.0" y="-131" width="375" height="624"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="624" id="VCF-70-ClZ"/>
+                                </constraints>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="선물하기" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WTP-SG-pey">
                                 <rect key="frame" x="144" y="54" width="87" height="30"/>
                                 <constraints>
@@ -152,7 +158,7 @@
                                     <constraint firstAttribute="height" constant="30" id="kfV-Vj-T8E"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="progressBar" translatesAutoresizingMaskIntoConstraints="NO" id="OcN-jE-ULT">
@@ -180,17 +186,80 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="candyGraphicImg" translatesAutoresizingMaskIntoConstraints="NO" id="EIi-Io-XfV">
+                                <rect key="frame" x="93" y="216" width="188" height="187.3333333333334"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="사탕깜짝패키지" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="90D-JA-bxo">
+                                <rect key="frame" x="99.666666666666686" y="516" width="176" height="50"/>
+                                <fontDescription key="fontDescription" name="NotoSansKannada-Bold" family="Noto Sans Kannada" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="총금액 4,000원" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="skz-vm-ctJ">
+                                <rect key="frame" x="154.66666666666666" y="679" width="194.99999999999997" height="27"/>
+                                <fontDescription key="fontDescription" name="NotoSansKannada-Bold" family="Noto Sans Kannada" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="amountSpinner" translatesAutoresizingMaskIntoConstraints="NO" id="NL9-fy-GfG">
+                                <rect key="frame" x="16" y="575" width="343" height="48"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5pv-qy-KwG">
+                                <rect key="frame" x="18" y="575" width="84" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="84" id="WGJ-yX-aE2"/>
+                                    <constraint firstAttribute="height" constant="48" id="bxU-z7-sht"/>
+                                </constraints>
+                                <state key="normal" image="minusSelectBtn"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hCU-pi-hSM">
+                                <rect key="frame" x="275" y="575" width="84" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="E0V-rH-gJJ"/>
+                                    <constraint firstAttribute="width" constant="84" id="Xty-Zy-vEx"/>
+                                </constraints>
+                                <state key="normal" image="plusSelectBtn"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vyp-Mg-WEZ">
+                                <rect key="frame" x="183" y="589" width="9" height="20.333333333333371"/>
+                                <fontDescription key="fontDescription" name="NotoSansKannada-Bold" family="Noto Sans Kannada" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="Vyp-Mg-WEZ" firstAttribute="leading" secondItem="5pv-qy-KwG" secondAttribute="trailing" constant="81" id="06E-0A-xbV"/>
                             <constraint firstItem="Rfz-dc-LwT" firstAttribute="leading" secondItem="csv-Ba-lYL" secondAttribute="leading" constant="16" id="3D6-3X-Lx7"/>
+                            <constraint firstItem="csv-Ba-lYL" firstAttribute="trailing" secondItem="hCU-pi-hSM" secondAttribute="trailing" constant="16" id="4W3-8j-Mfx"/>
+                            <constraint firstItem="NL9-fy-GfG" firstAttribute="top" secondItem="90D-JA-bxo" secondAttribute="bottom" constant="9" id="5sv-i3-p2b"/>
+                            <constraint firstItem="csv-Ba-lYL" firstAttribute="trailing" secondItem="EIi-Io-XfV" secondAttribute="trailing" constant="94" id="8Iz-JF-gWL"/>
                             <constraint firstItem="csv-Ba-lYL" firstAttribute="bottom" secondItem="Rfz-dc-LwT" secondAttribute="bottom" id="8V9-h0-njU"/>
                             <constraint firstItem="j33-T0-g6V" firstAttribute="leading" secondItem="OcN-jE-ULT" secondAttribute="leading" constant="107" id="Dgh-Mb-6gn"/>
+                            <constraint firstItem="5pv-qy-KwG" firstAttribute="top" secondItem="LMS-sp-rFt" secondAttribute="bottom" constant="82" id="FI5-2E-am7"/>
+                            <constraint firstItem="LMS-sp-rFt" firstAttribute="top" secondItem="IWo-d8-Ngt" secondAttribute="top" constant="-131" id="FlD-g2-7Y1"/>
+                            <constraint firstItem="csv-Ba-lYL" firstAttribute="trailing" secondItem="NL9-fy-GfG" secondAttribute="trailing" constant="16" id="JOx-kq-tYc"/>
+                            <constraint firstItem="NL9-fy-GfG" firstAttribute="leading" secondItem="csv-Ba-lYL" secondAttribute="leading" constant="16" id="Jpi-4b-nlK"/>
+                            <constraint firstItem="Vyp-Mg-WEZ" firstAttribute="top" secondItem="90D-JA-bxo" secondAttribute="bottom" constant="23" id="KFT-ge-mnK"/>
+                            <constraint firstItem="csv-Ba-lYL" firstAttribute="trailing" secondItem="90D-JA-bxo" secondAttribute="trailing" constant="99.5" id="LIS-IW-v3y"/>
+                            <constraint firstItem="90D-JA-bxo" firstAttribute="leading" secondItem="csv-Ba-lYL" secondAttribute="leading" constant="99.5" id="RVA-EW-a94"/>
                             <constraint firstItem="WTP-SG-pey" firstAttribute="top" secondItem="csv-Ba-lYL" secondAttribute="top" constant="10" id="S6j-pH-Fv9"/>
                             <constraint firstItem="OcN-jE-ULT" firstAttribute="centerX" secondItem="csv-Ba-lYL" secondAttribute="centerX" id="XRK-le-Gu8"/>
+                            <constraint firstItem="skz-vm-ctJ" firstAttribute="leading" secondItem="csv-Ba-lYL" secondAttribute="leading" constant="154.5" id="Zt5-sW-pD9"/>
+                            <constraint firstItem="EIi-Io-XfV" firstAttribute="leading" secondItem="csv-Ba-lYL" secondAttribute="leading" constant="93" id="ahq-TC-eeE"/>
+                            <constraint firstItem="NL9-fy-GfG" firstAttribute="top" secondItem="LMS-sp-rFt" secondAttribute="bottom" constant="82" id="bhd-ai-V8r"/>
+                            <constraint firstItem="hCU-pi-hSM" firstAttribute="top" secondItem="LMS-sp-rFt" secondAttribute="bottom" constant="82" id="cPT-rf-QLb"/>
                             <constraint firstItem="OcN-jE-ULT" firstAttribute="top" secondItem="WTP-SG-pey" secondAttribute="bottom" constant="21" id="gLm-dH-LBN"/>
+                            <constraint firstItem="EIi-Io-XfV" firstAttribute="top" secondItem="OcN-jE-ULT" secondAttribute="bottom" constant="70.099999999999994" id="hjt-gy-mnL"/>
+                            <constraint firstItem="Rfz-dc-LwT" firstAttribute="top" secondItem="skz-vm-ctJ" secondAttribute="bottom" constant="9" id="iJE-G5-jFI"/>
                             <constraint firstItem="j33-T0-g6V" firstAttribute="top" secondItem="OcN-jE-ULT" secondAttribute="top" constant="-5" id="ifr-FA-sVG"/>
+                            <constraint firstItem="5pv-qy-KwG" firstAttribute="leading" secondItem="csv-Ba-lYL" secondAttribute="leading" constant="18" id="nOJ-gJ-w4Y"/>
                             <constraint firstItem="csv-Ba-lYL" firstAttribute="trailing" secondItem="Rfz-dc-LwT" secondAttribute="trailing" constant="16" id="njj-NM-K1y"/>
+                            <constraint firstItem="LMS-sp-rFt" firstAttribute="leading" secondItem="csv-Ba-lYL" secondAttribute="leading" id="ofE-lw-bcP"/>
+                            <constraint firstItem="hCU-pi-hSM" firstAttribute="leading" secondItem="Vyp-Mg-WEZ" secondAttribute="trailing" constant="83" id="sfS-dq-SbA"/>
+                            <constraint firstAttribute="trailing" secondItem="skz-vm-ctJ" secondAttribute="trailing" constant="25.5" id="wMI-HI-2d4"/>
+                            <constraint firstItem="90D-JA-bxo" firstAttribute="top" secondItem="LMS-sp-rFt" secondAttribute="bottom" constant="23" id="wOC-KS-GFX"/>
+                            <constraint firstItem="LMS-sp-rFt" firstAttribute="trailing" secondItem="csv-Ba-lYL" secondAttribute="trailing" id="wWs-Ey-vo5"/>
                             <constraint firstItem="WTP-SG-pey" firstAttribute="centerX" secondItem="csv-Ba-lYL" secondAttribute="centerX" id="zSE-6b-sCb"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="csv-Ba-lYL"/>
@@ -207,7 +276,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ydd-wL-mNk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="100" y="165"/>
+            <point key="canvasLocation" x="100" y="164.77832512315271"/>
         </scene>
         <!--Third Presenting View Controller-->
         <scene sceneID="ht0-4r-IyY">
@@ -361,9 +430,12 @@
                                     <constraint firstAttribute="height" constant="63" id="gRr-2j-28l"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
-                                <state key="normal" title="결정">
+                                <state key="normal" title="홈">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="Quk-PJ-sia" kind="unwind" unwindAction="unwindToMain:" id="Zkr-Ne-3bX"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -394,13 +466,19 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="V2r-7z-fAA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="Quk-PJ-sia" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="1471" y="165"/>
         </scene>
     </scenes>
     <resources>
+        <image name="amountSpinner" width="343" height="48"/>
+        <image name="backgroundImg" width="376" height="624"/>
+        <image name="candyGraphicImg" width="188" height="187.33332824707031"/>
         <image name="candyUnselectedBtn" width="343" height="188"/>
         <image name="chocolateUnselectedBtn" width="343" height="188"/>
+        <image name="minusSelectBtn" width="84" height="48"/>
+        <image name="plusSelectBtn" width="84" height="48"/>
         <image name="progressBar" width="337" height="41"/>
         <image name="selectedCircle" width="18" height="18"/>
     </resources>
