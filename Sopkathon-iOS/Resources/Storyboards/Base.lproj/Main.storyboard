@@ -21,7 +21,7 @@
                                     <constraint firstAttribute="height" constant="624" id="Ijd-JB-Ay8"/>
                                 </constraints>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="graphicImg" translatesAutoresizingMaskIntoConstraints="NO" id="fn7-S7-MVs">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ghost1GraphicImg" translatesAutoresizingMaskIntoConstraints="NO" id="fn7-S7-MVs">
                                 <rect key="frame" x="46" y="57" width="283" height="231"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="230.99999999999994" id="6tS-sn-tbD"/>
@@ -188,6 +188,6 @@
     <resources>
         <image name="Hallow dear!" width="165" height="30"/>
         <image name="backgroundImg" width="376" height="624"/>
-        <image name="graphicImg" width="284.33334350585938" height="231.66667175292969"/>
+        <image name="ghost1GraphicImg" width="283.66665649414062" height="231.66667175292969"/>
     </resources>
 </document>
