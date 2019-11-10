@@ -45,11 +45,14 @@ class FirstPresentingViewController: UIViewController {
     dot.hero.id = "dot"
     nextButton.hero.id = "nextButton"
     nextButton.addTarget(self, action: #selector(presentNext), for: .touchUpInside)
-    nextButton.layer.applySmoothRoundedCorner()
-    
     candyButton.addTarget(self, action: #selector(candySelect), for: .touchUpInside)
     chocolateButton.addTarget(self, action: #selector(chocolateSelect), for: .touchUpInside)
   }
+    
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        nextButton.layer.applySmoothRoundedCorner()
+    }
   
   
   @objc func presentNext() {

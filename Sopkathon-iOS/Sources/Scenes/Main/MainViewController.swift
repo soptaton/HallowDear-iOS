@@ -20,6 +20,11 @@ class MainViewController: UIViewController {
     circularProgressView.setProgressWithAnimation(duration: 1, value: 0.75)
   }
     
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        setupView()
+    }
+    
     @IBAction func unwindToMain(_ segue: UIStoryboardSegue) {}
   
 }
