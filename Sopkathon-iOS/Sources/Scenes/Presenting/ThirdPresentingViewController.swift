@@ -24,8 +24,12 @@ class ThirdPresentingViewController: UIViewController {
     dot.hero.id = "dot"
     nextButton.hero.id = "nextButton"
     nextButton.addTarget(self, action: #selector(presentNext), for: .touchUpInside)
-    nextButton.layer.applySmoothRoundedCorner()
   }
+    
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        nextButton.layer.applySmoothRoundedCorner()
+    }
   
   
   @objc func presentNext() {

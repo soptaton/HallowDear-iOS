@@ -23,7 +23,11 @@ class FourthPresentingViewController: UIViewController {
     progressImg.hero.id = "progressImg"
     dot.hero.id = "dot"
     nextButton.hero.id = "nextButton"
-    nextButton.layer.applySmoothRoundedCorner()
   }
+    
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        nextButton.layer.applySmoothRoundedCorner()
+    }
   
 }

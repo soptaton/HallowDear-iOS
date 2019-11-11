@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -19,7 +19,10 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                             </imageView>
                             <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1b8-ds-gZ6">
-                                <rect key="frame" x="33.333333333333336" y="59" width="9.6666666666666643" height="18"/>
+                                <rect key="frame" x="30" y="59" width="18" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="18" id="rAL-f4-Mca"/>
+                                </constraints>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" backgroundImage="chevron.left" catalog="system">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -156,11 +159,10 @@
                             <constraint firstItem="CsT-cR-pjo" firstAttribute="leading" secondItem="6Zs-fK-KAa" secondAttribute="leading" id="ZWn-kj-5Wz"/>
                             <constraint firstItem="1b8-ds-gZ6" firstAttribute="top" secondItem="6Zs-fK-KAa" secondAttribute="top" constant="13" id="exe-EH-ZHW"/>
                             <constraint firstItem="gPq-8O-VPB" firstAttribute="top" secondItem="6Zs-fK-KAa" secondAttribute="top" constant="52" id="f7t-vW-Xxp"/>
-                            <constraint firstItem="1b8-ds-gZ6" firstAttribute="leading" secondItem="6Zs-fK-KAa" secondAttribute="leading" constant="33.200000000000003" id="gEW-3P-fGe"/>
+                            <constraint firstItem="1b8-ds-gZ6" firstAttribute="leading" secondItem="6Zs-fK-KAa" secondAttribute="leading" constant="30" id="gEW-3P-fGe"/>
                             <constraint firstItem="If0-o0-Tcs" firstAttribute="top" secondItem="gPq-8O-VPB" secondAttribute="bottom" constant="75" id="kAI-s8-QfS"/>
                             <constraint firstItem="ZGU-xS-Moz" firstAttribute="top" secondItem="2zH-6C-xbY" secondAttribute="top" id="uJh-dB-oAa"/>
                             <constraint firstItem="CsT-cR-pjo" firstAttribute="top" secondItem="gPq-8O-VPB" secondAttribute="bottom" constant="108" id="w5u-v6-NVp"/>
-                            <constraint firstItem="6Zs-fK-KAa" firstAttribute="trailing" secondItem="1b8-ds-gZ6" secondAttribute="trailing" constant="332.10000000000002" id="z80-6C-Q93"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Zs-fK-KAa"/>
                     </view>
