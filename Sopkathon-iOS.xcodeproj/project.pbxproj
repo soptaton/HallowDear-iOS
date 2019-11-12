@@ -44,7 +44,7 @@
 		52973A8F236E25C0007AEBE8 /* Donation.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Donation.storyboard; sourceTree = "<group>"; };
 		52973A92236E2836007AEBE8 /* DonationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonationVC.swift; sourceTree = "<group>"; };
 		52E197942377E8BE00B2D924 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		57772D89236DBA0A00D48F22 /* Sopkathon-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sopkathon-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57772D89236DBA0A00D48F22 /* 할로디어.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "할로디어.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		57772D8C236DBA0A00D48F22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57772D8E236DBA0A00D48F22 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		57772D93236DBA0A00D48F22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -118,7 +118,7 @@
 		57772D8A236DBA0A00D48F22 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				57772D89236DBA0A00D48F22 /* Sopkathon-iOS.app */,
+				57772D89236DBA0A00D48F22 /* 할로디어.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -279,7 +279,7 @@
 			);
 			name = "Sopkathon-iOS";
 			productName = "Sopkathon-iOS";
-			productReference = 57772D89236DBA0A00D48F22 /* Sopkathon-iOS.app */;
+			productReference = 57772D89236DBA0A00D48F22 /* 할로디어.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -384,7 +384,6 @@
 				57772DAD236DBC1E00D48F22 /* model.swift in Sources */,
 				EA3E1DCE236DF00B002D6D91 /* RewardViewController.swift in Sources */,
 				57EABF14236E301100096873 /* FourthViewController.swift in Sources */,
-				57772DAD236DBC1E00D48F22 /* model.swift in Sources */,
 				57EABF0E236E2FE400096873 /* FirstPresentViewController.swift in Sources */,
 				57EABF12236E300800096873 /* ThirdPresentingViewController.swift in Sources */,
 				57EABF09236DFD8800096873 /* UIView+extension.swift in Sources */,
@@ -551,7 +550,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.SOPT.Sopkathon-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "할로디어";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -571,7 +570,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.SOPT.Sopkathon-iOS";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "할로디어";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

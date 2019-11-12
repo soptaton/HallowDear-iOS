@@ -187,7 +187,7 @@
                                 </state>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="candyGraphicImg" translatesAutoresizingMaskIntoConstraints="NO" id="EIi-Io-XfV">
-                                <rect key="frame" x="93" y="216" width="188" height="187.3333333333334"/>
+                                <rect key="frame" x="93" y="216" width="188" height="374"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="사탕깜짝패키지" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="90D-JA-bxo">
                                 <rect key="frame" x="99.666666666666686" y="516" width="176" height="50"/>
@@ -202,7 +202,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="amountSpinner" translatesAutoresizingMaskIntoConstraints="NO" id="NL9-fy-GfG">
-                                <rect key="frame" x="16" y="575" width="343" height="48"/>
+                                <rect key="frame" x="16" y="575" width="343" height="96"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5pv-qy-KwG">
                                 <rect key="frame" x="18" y="575" width="84" height="48"/>
@@ -463,7 +463,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="343" height="188"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="candyGraphicImg" translatesAutoresizingMaskIntoConstraints="NO" id="G9O-oX-zak">
-                                                <rect key="frame" x="77" y="0.0" width="188" height="188.00000000000003"/>
+                                                <rect key="frame" x="77" y="0.0" width="188" height="188"/>
                                             </imageView>
                                         </subviews>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
