@@ -1,11 +1,3 @@
-//
-//  ViewController.swift
-//  Sopkathon-iOS
-//
-//  Created by LeeSeungsoo on 2019/11/02.
-//  Copyright © 2019 SOPT. All rights reserved.
-//
-
 import UIKit
 
 class MainViewController: UIViewController {
@@ -28,6 +20,14 @@ class MainViewController: UIViewController {
     circularProgressView.setProgressWithAnimation(duration: 1, value: 0.75)
   }
     
+<<<<<<< HEAD
+=======
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        setupView()
+    }
+    
+>>>>>>> develop
     @IBAction func unwindToMain(_ segue: UIStoryboardSegue) {}
   
 }
@@ -70,4 +70,3 @@ extension MainViewController {
            present(nextVC, animated: true)
        }
 }
-

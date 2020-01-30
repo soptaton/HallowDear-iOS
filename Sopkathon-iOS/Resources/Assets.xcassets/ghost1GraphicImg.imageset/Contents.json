@@ -1,6 +1,7 @@
 {
   "images" : [
     {
+<<<<<<< HEAD
       "scale" : "1x",
       "idiom" : "universal",
       "filename" : "ghost1GraphicImg.png"
@@ -14,6 +15,21 @@
       "idiom" : "universal",
       "filename" : "ghost1GraphicImg@3x.png",
       "scale" : "3x"
+=======
+      "filename" : "ghost1GraphicImg.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "ghost1GraphicImg@2x.png",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "ghost1GraphicImg@3x.png",
+      "scale" : "3x",
+      "idiom" : "universal"
+>>>>>>> develop
     }
   ],
   "info" : {

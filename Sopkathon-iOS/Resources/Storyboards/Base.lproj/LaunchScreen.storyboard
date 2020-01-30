@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
     <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+=======
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
+>>>>>>> develop
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -12,26 +19,41 @@
             <objects>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+<<<<<<< HEAD
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" image="splashImg" translatesAutoresizingMaskIntoConstraints="NO" id="cdJ-uV-7KX">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+=======
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="splashImg" translatesAutoresizingMaskIntoConstraints="NO" id="4FP-ey-jO2">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+>>>>>>> develop
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+<<<<<<< HEAD
                             <constraint firstItem="cdJ-uV-7KX" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="S4S-wV-OGM"/>
                             <constraint firstAttribute="trailing" secondItem="cdJ-uV-7KX" secondAttribute="trailing" id="f6e-4r-gNx"/>
                             <constraint firstItem="cdJ-uV-7KX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="p3e-VX-1xT"/>
                             <constraint firstAttribute="bottom" secondItem="cdJ-uV-7KX" secondAttribute="bottom" id="x2J-UF-VV3"/>
+=======
+                            <constraint firstItem="4FP-ey-jO2" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="Bi8-v1-EBX"/>
+                            <constraint firstItem="4FP-ey-jO2" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="JWD-zj-Ewc"/>
+                            <constraint firstItem="4FP-ey-jO2" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="VOu-d1-TTE"/>
+                            <constraint firstAttribute="bottom" secondItem="4FP-ey-jO2" secondAttribute="bottom" id="bXy-Gu-ugR"/>
+>>>>>>> develop
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
         </scene>
     </scenes>
     <resources>

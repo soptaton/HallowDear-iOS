@@ -11,9 +11,15 @@
       "scale" : "2x"
     },
     {
+<<<<<<< HEAD
       "scale" : "3x",
       "filename" : "donationGraphicImg@3x.png",
       "idiom" : "universal"
+=======
+      "idiom" : "universal",
+      "filename" : "donationGraphicImg@3x.png",
+      "scale" : "3x"
+>>>>>>> develop
     }
   ],
   "info" : {

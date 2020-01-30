@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:Sopkathon-iOS.xcodeproj">
+      location = "group:/Users/hyunji/Documents/GitHub/Sopkathon-iOS/Sopkathon-iOS.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

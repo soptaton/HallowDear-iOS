@@ -18,6 +18,19 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backgroundImg" translatesAutoresizingMaskIntoConstraints="NO" id="ZGU-xS-Moz">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                             </imageView>
+                            <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1b8-ds-gZ6">
+                                <rect key="frame" x="30" y="59" width="18" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="18" id="rAL-f4-Mca"/>
+                                </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" backgroundImage="chevron.left" catalog="system">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="D80-m9-pYJ" kind="unwind" unwindAction="unwindToMain:" id="Iq3-10-azr"/>
+                                </connections>
+                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="선물현황" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gPq-8O-VPB">
                                 <rect key="frame" x="132.66666666666666" y="96" width="110" height="36"/>
                                 <constraints>
@@ -158,8 +171,13 @@
                             <constraint firstItem="If0-o0-Tcs" firstAttribute="leading" secondItem="6Zs-fK-KAa" secondAttribute="leading" constant="43" id="Rk9-OT-Ep4"/>
                             <constraint firstItem="6Zs-fK-KAa" firstAttribute="trailing" secondItem="CsT-cR-pjo" secondAttribute="trailing" id="SLh-oC-Thk"/>
                             <constraint firstItem="CsT-cR-pjo" firstAttribute="leading" secondItem="6Zs-fK-KAa" secondAttribute="leading" id="ZWn-kj-5Wz"/>
+<<<<<<< HEAD
                             <constraint firstItem="w3L-gB-YhU" firstAttribute="top" secondItem="6Zs-fK-KAa" secondAttribute="top" constant="16" id="aLP-IG-V9K"/>
+=======
+                            <constraint firstItem="1b8-ds-gZ6" firstAttribute="top" secondItem="6Zs-fK-KAa" secondAttribute="top" constant="13" id="exe-EH-ZHW"/>
+>>>>>>> develop
                             <constraint firstItem="gPq-8O-VPB" firstAttribute="top" secondItem="6Zs-fK-KAa" secondAttribute="top" constant="52" id="f7t-vW-Xxp"/>
+                            <constraint firstItem="1b8-ds-gZ6" firstAttribute="leading" secondItem="6Zs-fK-KAa" secondAttribute="leading" constant="30" id="gEW-3P-fGe"/>
                             <constraint firstItem="If0-o0-Tcs" firstAttribute="top" secondItem="gPq-8O-VPB" secondAttribute="bottom" constant="75" id="kAI-s8-QfS"/>
                             <constraint firstItem="ZGU-xS-Moz" firstAttribute="top" secondItem="2zH-6C-xbY" secondAttribute="top" id="uJh-dB-oAa"/>
                             <constraint firstItem="CsT-cR-pjo" firstAttribute="top" secondItem="gPq-8O-VPB" secondAttribute="bottom" constant="108" id="w5u-v6-NVp"/>
@@ -171,6 +189,7 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mCH-hH-sUv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="D80-m9-pYJ" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="1385.5072463768117" y="-293.30357142857139"/>
         </scene>

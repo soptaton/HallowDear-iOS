@@ -13,9 +13,9 @@
 		52705987236DEAD0002AB186 /* Present.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52705986236DEAD0002AB186 /* Present.storyboard */; };
 		52973A90236E25C1007AEBE8 /* Donation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52973A8F236E25C0007AEBE8 /* Donation.storyboard */; };
 		52973A93236E2836007AEBE8 /* DonationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52973A92236E2836007AEBE8 /* DonationVC.swift */; };
+		52E197952377E8BE00B2D924 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E197942377E8BE00B2D924 /* MainViewController.swift */; };
 		57772D8D236DBA0A00D48F22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57772D8C236DBA0A00D48F22 /* AppDelegate.swift */; };
 		57772D8F236DBA0A00D48F22 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57772D8E236DBA0A00D48F22 /* SceneDelegate.swift */; };
-		57772D91236DBA0A00D48F22 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57772D90236DBA0A00D48F22 /* MainViewController.swift */; };
 		57772D94236DBA0A00D48F22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57772D92236DBA0A00D48F22 /* Main.storyboard */; };
 		57772D96236DBA0D00D48F22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57772D95236DBA0D00D48F22 /* Assets.xcassets */; };
 		57772D99236DBA0D00D48F22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57772D97236DBA0D00D48F22 /* LaunchScreen.storyboard */; };
@@ -43,10 +43,13 @@
 		52705986236DEAD0002AB186 /* Present.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Present.storyboard; sourceTree = "<group>"; };
 		52973A8F236E25C0007AEBE8 /* Donation.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Donation.storyboard; sourceTree = "<group>"; };
 		52973A92236E2836007AEBE8 /* DonationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonationVC.swift; sourceTree = "<group>"; };
+<<<<<<< HEAD
+=======
+		52E197942377E8BE00B2D924 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+>>>>>>> develop
 		57772D89236DBA0A00D48F22 /* 할로디어.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "할로디어.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		57772D8C236DBA0A00D48F22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57772D8E236DBA0A00D48F22 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		57772D90236DBA0A00D48F22 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		57772D93236DBA0A00D48F22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		57772D95236DBA0D00D48F22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57772D98236DBA0D00D48F22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -158,10 +161,10 @@
 		57772DA4236DBAB600D48F22 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
+				57EABF0A236E0D9D00096873 /* Presenting.storyboard */,
 				57772D92236DBA0A00D48F22 /* Main.storyboard */,
 				57772D97236DBA0D00D48F22 /* LaunchScreen.storyboard */,
 				EA3E1DC4236DEA19002D6D91 /* Reward.storyboard */,
-				57EABF0A236E0D9D00096873 /* Presenting.storyboard */,
 				52705986236DEAD0002AB186 /* Present.storyboard */,
 				52973A8F236E25C0007AEBE8 /* Donation.storyboard */,
 			);
@@ -217,7 +220,7 @@
 		57772DD0236DEC7100D48F22 /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				57772D90236DBA0A00D48F22 /* MainViewController.swift */,
+				52E197942377E8BE00B2D924 /* MainViewController.swift */,
 				57772DD2236DED3200D48F22 /* CircularProgressView.swift */,
 			);
 			path = Main;
@@ -379,15 +382,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52E197952377E8BE00B2D924 /* MainViewController.swift in Sources */,
 				EA3E1DD2236E0563002D6D91 /* RoundView.swift in Sources */,
 				57772DAD236DBC1E00D48F22 /* model.swift in Sources */,
 				EA3E1DCE236DF00B002D6D91 /* RewardViewController.swift in Sources */,
+<<<<<<< HEAD
 				57772D91236DBA0A00D48F22 /* MainViewController.swift in Sources */,
+=======
+>>>>>>> develop
 				57EABF14236E301100096873 /* FourthViewController.swift in Sources */,
-				57772DAD236DBC1E00D48F22 /* model.swift in Sources */,
 				57EABF0E236E2FE400096873 /* FirstPresentViewController.swift in Sources */,
 				57EABF12236E300800096873 /* ThirdPresentingViewController.swift in Sources */,
-				57772D91236DBA0A00D48F22 /* MainViewController.swift in Sources */,
 				57EABF09236DFD8800096873 /* UIView+extension.swift in Sources */,
 				57772D8D236DBA0A00D48F22 /* AppDelegate.swift in Sources */,
 				57EABF10236E2FF500096873 /* SecondPresentingViewController.swift in Sources */,
@@ -474,7 +479,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+<<<<<<< HEAD
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+=======
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+>>>>>>> develop
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -528,7 +537,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+<<<<<<< HEAD
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+=======
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+>>>>>>> develop
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
